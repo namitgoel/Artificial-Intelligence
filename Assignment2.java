@@ -1,3 +1,7 @@
+/*
+	cost function = 1 cost per
+*/
+
 import java.util.*;
 import java.io.*;
 import java.lang.*;
