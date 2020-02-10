@@ -1,5 +1,23 @@
 /*
-	cost function = 1 cost per
+	Initial State:
+	The board is empty no Queen on the board. We will put the Queen one by one and reach the goal state.
+	
+	States:	
+	A state is any arrangement of 0 to 8 queens on the board. 
+	We can even have a state where any arrangement of 0-8 queens is done with no queen under attack.
+
+	Actions:
+	Adding queen to any empty square or adding queen to the leftmost square that is empty such that no other queen attack her and this is the operator.
+
+	Path cost:
+	Path cost is 1 per move.
+
+	Goal state:
+	Putting the 8 queen on the board such that is not under attack by any other queen on the board.
+	Breadth First Search is a Special Case of Uniform Cost Search where cost of each path is equal to 1.
+	
+	Heuristics function:
+	number of queens attacking each other.
 */
 
 import java.util.*;
@@ -99,7 +117,7 @@ public class Assignment2
 			for(int j = 0;j < size; j++)
 			{
 				if(arr.charAt(size*i+j) == '1')
-					System.out.print("▓▓ |");
+					System.out.print("1 |");
 				else System.out.print("_ |");
 			}
 		System.out.println();
