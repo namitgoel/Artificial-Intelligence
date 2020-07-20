@@ -1,0 +1,45 @@
+********Game Begins********
+
+
+***Enter the mode.***
+1. AI vs AI
+2. AI vs Human
+
+MODE: 1
+
+Enter the no. of sticks: 21
+
+Player A is AI and Player B is AI
+
+
+--------Player B's turn first--------
+
+
+-------------------------------------
+(Remaining sticks: 21)
+Player B chooses: 3
+
+(Remaining sticks: 18)
+Player A chooses: 3
+
+(Remaining sticks: 15)
+Player B chooses: 3
+
+(Remaining sticks: 12)
+Player A chooses: 3
+
+(Remaining sticks: 9)
+Player B chooses: 3
+
+(Remaining sticks: 6)
+Player A chooses: 3
+
+(Remaining sticks: 3)
+Player B chooses: 2
+
+(Remaining sticks: 1)
+Player A chooses: 1
+
+(Remaining sticks: 0)
+
+*******Player B wins*******
